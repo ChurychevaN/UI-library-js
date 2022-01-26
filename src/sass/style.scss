@@ -1,16 +1,21 @@
 * {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
 }
 
-button{
+button {
     width: 150px;
     height: 40px;
     background-color: lightblue;
     text-align: center;
 }
-.active{
+.active {
     font-size: 20px;
     color: red;
 }
+//.wrapper {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//}
