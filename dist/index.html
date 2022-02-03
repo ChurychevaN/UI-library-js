@@ -14,21 +14,102 @@
     <button class="btn btn-warning m20">Fade out all texts</button>
 
     <!--Dropdown menu-->
-     <!--   <div class="dropdown">
-            <button class="btn btn-primery dropdown-toggle" id="dropdownMenuButton">Dropdown
-                button</button>
-            <div class="dropdown-menu" data-toggel-id="dropdownMenuButton">
-                <a href="" class="dropdown-item">Action</a>
-                <a href="" class="dropdown-item">Action #2</a>
-                <a href="" class="dropdown-item">Action #3</a>
-            </div>
-        </div>-->
-    <div class="wrap">
-
+    <div class="dropdown">
+        <button class="btn btn-primery dropdown-toggle" id="dropdownMenuButton">Dropdown
+            button
+        </button>
+        <div class="dropdown-menu" data-toggel-id="dropdownMenuButton">
+            <a href="" class="dropdown-item">Action</a>
+            <a href="" class="dropdown-item">Action #2</a>
+            <a href="" class="dropdown-item">Action #3</a>
+        </div>
     </div>
+
+    <!--Card-->
+
+    <div class="goods d-flex f-space-around">
+        <div class="card">
+            <img class="card-img"
+                 src="https://chopra.brightspotcdn.com/dims4/default/dfb2b37/2147483647/strip/true/crop/571x300+36+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fchopra-brightspot.s3.amazonaws.com%2F61%2Fcc%2F9b0ff8c8aaba0ff21eafee50293c%2F6reasonswhytravelingisgoodforyou.jpg"
+                 alt="photo">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Distinctio dolore doloribus
+                    eveniet fuga nisi voluptatibus? </p>
+                <a href="#" class="btn btn-primary" data-toggel="modal"
+                data-target="#exampleModal">Link to</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img"
+                 src="https://chopra.brightspotcdn.com/dims4/default/dfb2b37/2147483647/strip/true/crop/571x300+36+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fchopra-brightspot.s3.amazonaws.com%2F61%2Fcc%2F9b0ff8c8aaba0ff21eafee50293c%2F6reasonswhytravelingisgoodforyou.jpg"
+                 alt="photo">
+            <div class="card-body">
+                <div class="card-title">Card title #2</div>
+                <p class="card-text">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Distinctio dolore doloribus
+                    eveniet fuga nisi voluptatibus? </p>
+                <a href="#" class="btn btn-primary" data-toggel="modal"
+                   data-target="#exampleModal2">Link to</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal -->
+    <div class="modal" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">
+                        Modal title
+                    </div>
+                    <div class="modal-bady">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aliquid consectetur cum doloribus error eveniet explicabo incidunt
+                        ipsum laboriosam laborum molestiae nihil officiis perferendis
+                        perspiciatis possimus praesentium quas repellat, sequi sit?
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-close>Close</button>
+                        <button class="btn btn-success">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="exampleModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">
+                        Modal title #2
+                    </div>
+                    <div class="modal-bady">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-close>Close</button>
+                        <button class="btn btn-success">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </div>
+
+
+
 <script src='script.js'></script>
 </body>
 </html>
